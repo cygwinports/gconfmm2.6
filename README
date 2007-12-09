@@ -4,9 +4,10 @@ Official C++ bindings for GConf-2.0.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  glibmm24-2.12.9-1
-  libsigc++20-2.0.17-1
+  GConf2-2.20.1-1
+  glib2-2.14.4-1
+  glibmm24-2.14.2-1
+  libsigc++20-2.1.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -14,12 +15,12 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.3.1-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   make-3.81-1
-  pkg-config-0.20-1
+  pkg-config-0.21-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -31,16 +32,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gconfmm26-2.18.0-1-src.tar.bz2
+  unpack gconfmm26-2.20.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gconfmm26-2.18.0-1.cygport all
+  cygport ./gconfmm26-2.20.0-1.cygport all
 
 This will create:
-  /usr/src/gconfmm26-2.18.0-1-src.tar.bz2
-  /usr/src/gconfmm26-2.18.0-1.tar.bz2
-  /usr/src/gconfmm26-devel-2.18.0-1.tar.bz2
+  /usr/src/gconfmm26-2.20.0-1-src.tar.bz2
+  /usr/src/gconfmm26-2.20.0-1.tar.bz2
+  /usr/src/gconfmm26-devel-2.20.0-1.tar.bz2
 
 -------------------------------------------
 
@@ -48,16 +49,17 @@ Files included in the binary packages:
 
 (gconfmm26)
   /usr/bin/cyggconfmm-2.6-1.dll
-  /usr/share/doc/Cygwin/gconfmm26-2.18.0.README
-  /usr/share/doc/gconfmm26-2.18.0/AUTHORS
-  /usr/share/doc/gconfmm26-2.18.0/ChangeLog
-  /usr/share/doc/gconfmm26-2.18.0/COPYING
-  /usr/share/doc/gconfmm26-2.18.0/COPYING.LIB
-  /usr/share/doc/gconfmm26-2.18.0/INSTALL
-  /usr/share/doc/gconfmm26-2.18.0/NEWS
-  /usr/share/doc/gconfmm26-2.18.0/README
+  /usr/share/doc/Cygwin/gconfmm26-2.20.0.README
+  /usr/share/doc/gconfmm26-2.20.0/AUTHORS
+  /usr/share/doc/gconfmm26-2.20.0/ChangeLog
+  /usr/share/doc/gconfmm26-2.20.0/COPYING
+  /usr/share/doc/gconfmm26-2.20.0/COPYING.LIB
+  /usr/share/doc/gconfmm26-2.20.0/INSTALL
+  /usr/share/doc/gconfmm26-2.20.0/NEWS
+  /usr/share/doc/gconfmm26-2.20.0/README
 
 (gconfmm26-devel)
+  /usr/include/gconfmm-2.6/gconfmm.h
   /usr/include/gconfmm-2.6/gconfmm/callback.h
   /usr/include/gconfmm-2.6/gconfmm/changeset.h
   /usr/include/gconfmm-2.6/gconfmm/client.h
@@ -73,7 +75,6 @@ Files included in the binary packages:
   /usr/include/gconfmm-2.6/gconfmm/value.h
   /usr/include/gconfmm-2.6/gconfmm/value_listhelpers.h
   /usr/include/gconfmm-2.6/gconfmm/wrap_init.h
-  /usr/include/gconfmm-2.6/gconfmm.h
   /usr/lib/gconfmm-2.6/include/gconfmmconfig.h
   /usr/lib/gconfmm-2.6/proc/m4/convert.m4
   /usr/lib/gconfmm-2.6/proc/m4/convert_gconfmm.m4
@@ -84,6 +85,9 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.20.0-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 2.18.0-1 -----
 Version bump for GNOME 2.18.
