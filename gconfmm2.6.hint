@@ -1,0 +1,3 @@
+category: Gnome
+sdesc: "C++ bindings for GConf2 (sources)"
+ldesc: "Official C++ bindings for GConf-2.0"

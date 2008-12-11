@@ -1,5 +1,0 @@
-category: Gnome
-requires: cygwin gconfmm26 GConf2-devel glib2-devel glibmm24-devel libsigc++20-devel
-external-source: gconfmm26
-sdesc: "C++ bindings for GConf2 (development)"
-ldesc: "Official C++ bindings for GConf-2.0"
