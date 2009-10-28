@@ -3,25 +3,26 @@ gconfmm2.6
 Official C++ bindings for GConf-2.0.
 
 Runtime requirements:
-  cygwin-1.7.0-43
-  libgcc1-4.3.2-2
-  libgconf2_4-2.26.0-1
-  libglib2.0_0-2.20.0-1
-  libglibmm2.4_1-2.20.0-1
-  libsigc2.0_0-2.2.3-10
-  libstdc++6-4.3.2-2
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libgconf2_4-2.28.0-1
+  libglib2.0_0-2.22.2-1
+  libglibmm2.4_1-2.22.1-1
+  libsigc2.0_0-2.2.4.2-1
+  libstdc++6-4.3.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  gcc4-g++-4.3.2-2
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gcc4-g++-4.3.4-1
   make-3.81-2
-  pkg-config-0.23a-2
+  mm-common-0.8-1
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical homepage:
@@ -33,57 +34,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gconfmm2.6-2.24.0-1-src.tar.bz2
+  unpack gconfmm2.6-2.28.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gconfmm2.6-2.24.0-1.cygport all
+  cygport ./gconfmm2.6-2.28.0-1.cygport all
 
 This will create:
-  /usr/src/gconfmm2.6-2.24.0-1-src.tar.bz2
-  /usr/src/libgconfmm2.6-devel-2.24.0-1.tar.bz2
-  /usr/src/libgconfmm2.6_1-2.24.0-1.tar.bz2
+  /usr/src/gconfmm2.6-2.28.0-1-src.tar.bz2
+  /usr/src/libgconfmm2.6-devel-2.28.0-1.tar.bz2
+  /usr/src/libgconfmm2.6_1-2.28.0-1.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libgconfmm2.6_1)
-  /usr/bin/cyggconfmm-2.6-1.dll
-  /usr/share/doc/gconfmm2.6/AUTHORS
-  /usr/share/doc/gconfmm2.6/ChangeLog
-  /usr/share/doc/gconfmm2.6/COPYING
-  /usr/share/doc/gconfmm2.6/COPYING.LIB
-  /usr/share/doc/gconfmm2.6/NEWS
-  /usr/share/doc/gconfmm2.6/README
-
-(libgconfmm2.6-devel)
-  /usr/include/gconfmm-2.6/gconfmm.h
-  /usr/include/gconfmm-2.6/gconfmm/callback.h
-  /usr/include/gconfmm-2.6/gconfmm/changeset.h
-  /usr/include/gconfmm-2.6/gconfmm/client.h
-  /usr/include/gconfmm-2.6/gconfmm/entry.h
-  /usr/include/gconfmm-2.6/gconfmm/init.h
-  /usr/include/gconfmm-2.6/gconfmm/private/changeset_p.h
-  /usr/include/gconfmm-2.6/gconfmm/private/client_p.h
-  /usr/include/gconfmm-2.6/gconfmm/private/entry_p.h
-  /usr/include/gconfmm-2.6/gconfmm/private/schema_p.h
-  /usr/include/gconfmm-2.6/gconfmm/private/value_p.h
-  /usr/include/gconfmm-2.6/gconfmm/schema.h
-  /usr/include/gconfmm-2.6/gconfmm/setinterface.h
-  /usr/include/gconfmm-2.6/gconfmm/value.h
-  /usr/include/gconfmm-2.6/gconfmm/value_listhelpers.h
-  /usr/include/gconfmm-2.6/gconfmm/wrap_init.h
-  /usr/lib/gconfmm-2.6/include/gconfmmconfig.h
-  /usr/lib/gconfmm-2.6/proc/m4/convert.m4
-  /usr/lib/gconfmm-2.6/proc/m4/convert_gconfmm.m4
-  /usr/lib/libgconfmm-2.6.dll.a
-  /usr/lib/libgconfmm-2.6.la
-  /usr/lib/pkgconfig/gconfmm-2.6.pc
-
---------------------
-
 Port Notes:
+
+----- version 2.28.0-1 -----
+Version bump for GNOME 2.28.
 
 ----- version 2.24.0-10 -----
 Initial release for Cygwin 1.7.
