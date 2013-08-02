@@ -1,0 +1,14 @@
+inherit gtkmm
+
+NAME="gconfmm2.6"
+VERSION=2.28.2
+RELEASE=2
+CATEGORY="Libs"
+SUMMARY="C++ bindings for GConf2"
+DESCRIPTION="Official GTKmm C++ bindings for GConf-2.6 and up"
+
+PKG_NAMES="lib${NAME}_1 lib${NAME}-devel lib${NAME}-doc"
+libgconfmm2_6_1_CONTENTS="usr/bin/cyggconfmm-2.6-1.dll usr/share/doc/${NAME}/"
+libgconfmm2_6_devel_CONTENTS='usr/include/ usr/lib/'
+libgconfmm2_6_doc_CATEGORY="Doc"
+libgconfmm2_6_doc_CONTENTS="usr/share/devhelp/ usr/share/doc/gconfmm-2.6/"

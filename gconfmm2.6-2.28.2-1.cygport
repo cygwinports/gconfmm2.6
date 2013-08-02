@@ -1,5 +1,0 @@
-inherit gtkmm
-
-PKG_NAMES="${PN} lib${PN}_1 lib${PN}-devel"
-libgconfmm2_6_1_CONTENTS="usr/bin/ usr/share/doc/Cygwin/ usr/share/doc/${PN}/"
-libgconfmm2_6_devel_CONTENTS='usr/include/ usr/lib/ usr/share/devhelp/ usr/share/doc/gconfmm-2.6/reference/'
